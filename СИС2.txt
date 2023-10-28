@@ -1,0 +1,48 @@
+﻿#include <iostream>
+using namespace std;
+int main()
+{
+    char oper, result;
+    float num1, num2;
+    setlocale(0, "");
+    cout << "Введите первое число: ";
+    cin >> num1;
+
+    cout << "Введите оператор (+, -, *, /): ";
+    cin >> oper;
+
+    cout << "Введите второе число: ";
+    cin >> num2;
+
+    if (oper == '+'){
+        cout << num1 << " + " << num2 << " = " << num1 + num2;
+        result = num1 + num2;
+        cout << result << "Результат";
+        
+    }
+    else if (oper == '-') {
+        cout << num1 << " - " << num2 << " = " << num1 - num2;
+        result = num1 - num2;
+        cout << result << "Результат";
+    }
+    else if (oper == '*') {
+        cout << num1 << "  " << num2 << " = " << num1 * num2;
+        result = num1 * num2;
+        cout << result << "Результат";
+    }
+    else if (oper == '/') {
+        if (num2 != 0) {
+            cout << num1 << " / " << num2 << " = " << num1 / num2;
+            result = num1 / num2;
+            cout << result << "Результат";
+        }
+        else {
+            cout << "Введены некорректные данные! Нельзя делить на ноль.";
+        }
+    }
+    else {
+        cout << "Введены некорректные данные!";
+    }
+
+    return 0;
+}

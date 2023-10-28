@@ -1,0 +1,321 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num1 = 1;
+    int num2 = 2;
+    int num3 = 3;
+    int num4 = 4;
+    int num5 = 5;
+    int num6 = 6;
+    int num7 = 7;
+    int num8 = 8;
+    int num9 = 9;
+    int num10 = 10;
+
+    cout << "num1" << endl;
+    cout << "num2" << endl;
+    cout << "num3" << endl;
+    cout << "num4" << endl;
+    cout << "num5" << endl;
+    cout << "num6" << endl;
+    cout << "num7" << endl;
+    cout << "num8" << endl;
+    cout << "num9" << endl;
+    cout << "num10" << endl;
+
+    short num11 = 11;
+    short num12 = 12;
+    short num13 = 13;
+    short num14 = 14;
+    short num15 = 15;
+    short num16 = 16;
+    short num17 = 17;
+    short num18 = 18;
+    short num19 = 19;
+    short num20 = 20;
+
+    cout << "num11" << endl;
+    cout << "num12" << endl;
+    cout << "num13" << endl;
+    cout << "num14" << endl;
+    cout << "num15" << endl;
+    cout << "num16" << endl;
+    cout << "num17" << endl;
+    cout << "num18" << endl;
+    cout << "num19" << endl;
+    cout << "num20" << endl;
+
+    long num21 = 21;
+    long num22 = 22;
+    long num23 = 23;
+    long num24 = 24;
+    long num25 = 25;
+    long num26 = 26;
+    long num27 = 27;
+    long num28 = 28;
+    long num29 = 29;
+    long num30 = 30;
+
+    cout << "num21" << endl;
+    cout << "num22" << endl;
+    cout << "num23" << endl;
+    cout << "num24" << endl;
+    cout << "num25" << endl;
+    cout << "num26" << endl;
+    cout << "num27" << endl;
+    cout << "num28" << endl;
+    cout << "num29" << endl;
+    cout << "num30" << endl;
+
+    float num31 = 31.0f;
+    float num32 = 32.0f;
+    float num33 = 33.0f;
+    float num34 = 34.0f;
+    float num35 = 35.0f;
+    float num36 = 36.0f;
+    float num37 = 37.0f;
+    float num38 = 38.0f;
+    float num39 = 39.0f;
+    float num40 = 40.0f;
+
+    cout << "num31" << endl;
+    cout << "num32" << endl;
+    cout << "num33" << endl;
+    cout << "num34" << endl;
+    cout << "num35" << endl;
+    cout << "num36" << endl;
+    cout << "num37" << endl;
+    cout << "num38" << endl;
+    cout << "num39" << endl;
+    cout << "num40" << endl;
+
+    double num41 = 41.0;
+    double num42 = 42.0;
+    double num43 = 43.0;
+    double num44 = 44.0;
+    double num45 = 45.0;
+    double num46 = 46.0;
+    double num47 = 47.0;
+    double num48 = 48.0;
+    double num49 = 49.0;
+    double num50 = 50.0;
+
+    cout << num41 << endl;
+    cout << num42 << endl;
+    cout << num43 << endl;
+    cout << num44 << endl;
+    cout << num45 << endl;
+    cout << num46 << endl;
+    cout << num47 << endl;
+    cout << num48 << endl;
+    cout << num49 << endl;
+    cout << num50 << endl;
+
+    char char51 = 'a';
+    char char52 = 'b';
+    char char53 = 'c';
+    char char54 = 'd';
+    char char55 = 'e';
+    char char56 = 'f';
+    char char57 = 'g';
+    char char58 = 'h';
+    char char59 = 'i';
+    char char60 = 'j';
+
+
+    cout << char51 << endl;
+    cout << char52 << endl;
+    cout << char53 << endl;
+    cout << char54 << endl;
+    cout << char55 << endl;
+    cout << char56 << endl;
+    cout << char57 << endl;
+    cout << char58 << endl;
+    cout << char59 << endl;
+    cout << char60 << endl;
+
+    bool bool61 = true;
+    bool bool62 = false;
+    bool bool63 = true;
+    bool bool64 = false;
+    bool bool65 = true;
+    bool bool66 = false;
+    bool bool67 = true;
+    bool bool68 = false;
+    bool bool69 = true;
+    bool bool70 = false;
+
+
+    cout << bool61 << endl;
+    cout << bool62 << endl;
+    cout << bool63 << endl;
+    cout << bool64 << endl;
+    cout << bool65 << endl;
+    cout << bool66 << endl;
+    cout << bool67 << endl;
+    cout << bool68 << endl;
+    cout << bool69 << endl;
+    cout << bool70 << endl;
+   
+     const int num71 = 71;
+     const int num72 = 72;
+     const int num73 = 73;
+     const int num74 = 74;
+     const int num75 = 75;
+     const int num76 = 76;
+     const int num77 = 77;
+     const int num78 = 78;
+     const int num79 = 79;
+     const int num80 = 80;
+
+    cout << "const num71" << endl;
+    cout << "const num72" << endl;
+    cout << "const num73" << endl;
+    cout << "const num74" << endl;
+    cout << "const num75" << endl;
+    cout << "const num76" << endl;
+    cout << "const num77" << endl;
+    cout << "const num78" << endl;
+    cout << "const num79" << endl;
+    cout << "const num80" << endl;
+    
+   const short num81 = 81;
+   const short num82 = 82;
+   const short num83 = 83;
+   const short num84 = 84;
+   const short num85 = 85;
+   const short num86 = 86;
+   const short num87 = 87;
+   const short num88 = 88;
+   const short num89 = 89;
+   const short num90 = 90;
+
+    cout << "const num81" << endl;
+    cout << "const num82" << endl;
+    cout << "const num83" << endl;
+    cout << "const num84" << endl;
+    cout << "const num85" << endl;
+    cout << "const num86" << endl;
+    cout << "const num87" << endl;
+    cout << "const num88" << endl;
+    cout << "const num89" << endl;
+    cout << "const num90" << endl;
+
+    const long num91 = 91;
+    const long num92 = 92;
+    const long num93 = 93;
+    const long num94 = 94;
+    const long num95 = 95;
+    const long num96 = 96;
+    const long num97 = 97;
+    const long num98 = 98;
+    const long num99 = 99;
+    const long num100 = 100;
+
+    cout << "const num91" << endl;
+    cout << "const num92" << endl;
+    cout << "const num93" << endl;
+    cout << "const num94" << endl;
+    cout << "const num95" << endl;
+    cout << "const num96" << endl;
+    cout << "const num97" << endl;
+    cout << "const num98" << endl;
+    cout << "const num99" << endl;
+    cout << "const num100" << endl;
+
+    const float num101 = 101.0f;
+    const float num102 = 102.0f;
+    const float num103 = 103.0f;
+    const float num104 = 104.0f;
+    const float num105 = 105.0f;
+    const float num106 = 106.0f;
+    const float num107 = 107.0f;
+    const float num108 = 108.0f;
+    const float num109 = 109.0f;
+    const float num110 = 110.0f;
+
+     cout << "const num101" << endl;
+     cout << "const num102" << endl;
+     cout << "const num103" << endl;
+     cout << "const num104" << endl;
+     cout << "const num105" << endl;
+     cout << "const num106" << endl;
+     cout << "const num107" << endl;
+     cout << "const num108" << endl;
+     cout << "const num109" << endl;
+     cout << "const num110" << endl;
+
+    const double num111 = 111.0;
+    const double num112 = 112.0;
+    const double num113 = 113.0;
+    const double num114 = 114.0;
+    const double num115 = 115.0;
+    const double num116 = 116.0;
+    const double num117 = 117.0;
+    const double num118 = 118.0;
+    const double num119 = 119.0;
+    const double num120 = 120.0;
+
+     cout << const num111 << endl;
+     cout << const num112 << endl;
+     cout << const num113 << endl;
+     cout << const num114 << endl;
+     cout << const num115 << endl;
+     cout << const num116 << endl;
+     cout << const num117 << endl;
+     cout << const num118 << endl;
+     cout << const num119 << endl;
+     cout << const num120 << endl;
+
+
+     const char char121 = 'a';
+   const char char122 = 'b';
+   const char char123 = 'c';
+   const char char124 = 'd';
+   const char char125 = 'e';
+   const char char126 = 'f';
+   const char char127 = 'g';
+   const char char128 = 'h';
+   const char char129 = 'i';
+   const char char130 = 'j';
+
+
+     cout << const char121 << endl;
+     cout << const char122 << endl;
+     cout << const char123 << endl;
+     cout << const char124 << endl;
+     cout << const char125 << endl;
+     cout << const char126 << endl;
+     cout << const char127 << endl;
+     cout << const char128 << endl;
+     cout << const char129 << endl;
+     cout << const char130 << endl;
+
+     const bool bool131 = true;
+     const bool bool132 = false;
+     const bool bool133 = true;
+     const bool bool134 = false;
+     const bool bool135 = true;
+    const  bool bool134 = false;
+     const bool bool137 = true;
+     const bool bool138 = false;
+    const bool bool139 = true;
+     const bool bool140 = false;
+
+
+     cout <<const bool131 << endl;
+     cout << const bool132 << endl;
+     cout << const bool133 << endl;
+     cout << const bool134 << endl;
+     cout << const bool135 << endl;
+     cout << const bool136 << endl;
+     cout << const bool137 << endl;
+     cout << const bool138 << endl;
+     cout << const bool139 << endl;
+     cout << const bool140 << endl;
+ 
+    return 0;
+
+}

@@ -1,0 +1,196 @@
+﻿#include <iostream>
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+    int num;
+
+    cout << "[1] Русский язык " << endl << "[2] Английский язык" << endl << endl;
+
+    cout << "[3] Выйти" << endl << endl;
+
+    cin >> num;
+    system("cls");
+
+
+    switch (num)
+    {
+    case 1:
+        cout << "Русский язык : " << endl << endl;
+
+        cout << "[1] Стол " << endl << "[2] Плавать" << endl << "[3] Солнце" << endl << "[4] Яблоко " << endl << "[5] Медведь" << endl;
+        cout << "[6] Крокодил" << endl << "[7] Животное" << endl << "[8] Коробка" << endl << "[9] Ковер" << endl << "[10] Кровать" << endl;
+        cout << "[11] Вода" << endl << "[12] Школа" << endl << "[13] Черный" << endl << "[14] Собака" << endl << "[15] Журнал" << endl << endl;
+
+
+        cin >> num;
+        system("cls");
+
+        switch (num)
+        {
+        case 1:
+            cout << "Стол -> Table " << endl << endl;
+            break;
+
+        case 2:
+            cout << "Плавать -> Swim" << endl << endl;
+            break;
+
+        case 3:
+            cout << "Солнце -> Sun" << endl << endl;
+            break;
+
+        case 4:
+            cout << "Яблоко -> Apple" << endl << endl;
+            break;
+
+        case 5:
+            cout << "Медведь -> Bear" << endl << endl;
+            break;
+
+        case 6:
+            cout << "Крокодил -> Crocodile" << endl << endl;
+            break;
+
+        case 7:
+            cout << "Животное -> Animal" << endl << endl;
+            break;
+
+        case 8:
+            cout << "Коробка - Box" << endl << endl;
+            break;
+
+        case 9:
+            cout << " Ковер -> Carpet " << endl << endl;
+            break;
+
+        case 10:
+            cout << "Кровать -> Bed " << endl << endl;
+            break;
+
+        case 11:
+            cout << "Вода -> Water" << endl << endl;
+            break;
+
+        case 12:
+            cout << "Школа -> School" << endl << endl;
+            break;
+
+
+        case 13:
+            cout << "Черный ->  Black" << endl << endl;
+            break;
+
+        case 14:
+            cout << "Собака -> Dog" << endl << endl;
+            break;
+
+        case 15:
+            cout << "Журнал -> Magazine" << endl << endl;
+            break;
+
+        default:
+            cout << "Выберите номер из списка" << endl << endl;
+            break;
+        }
+        break;
+
+
+    case 2:
+        cout << "Английский язык";
+
+        cout << "[1] Table " << endl << "[2] Swim" << endl << "[3] Sun" << endl << "[4] Apple " << endl << "[5] Bear" << endl;
+        cout << "[6] Crocodile" << endl << "[7] Animal" << endl << "[8] Box" << endl << "[9] Carpet" << endl << "[10] Bed" << endl;
+        cout << "[11] Water" << endl << "[12] School" << endl << "[13] BLack" << endl << "[14] Dog" << endl << "[15] Magazine" << endl << endl;
+
+
+        cin >> num;
+        system("cls");
+
+        switch (num)
+        {
+        case 1:
+            cout << "Table -> Стол " << endl << endl;
+            break;
+
+        case 2:
+            cout << " Swim -> Плавать" << endl << endl;
+            break;
+
+        case 3:
+            cout << "Sun -> Солнце" << endl << endl;
+            break;
+
+        case 4:
+            cout << "Apple -> Яблоко" << endl << endl;
+            break;
+
+        case 5:
+            cout << "Bear -> Медведь" << endl << endl;
+            break;
+
+        case 6:
+            cout << "Crocodile -> Крокодил" << endl << endl;
+            break;
+
+        case 7:
+            cout << "Animal -> Животное" << endl << endl;
+            break;
+
+        case 8:
+            cout << " Box->  Коробка" << endl << endl;
+            break;
+
+        case 9:
+            cout << " Carpet -> Ковер " << endl << endl;
+            break;
+
+        case 10:
+            cout << " Bed -> Кровать " << endl << endl;
+            break;
+
+        case 11:
+            cout << " Water -> Вода" << endl << endl;
+            break;
+
+        case 12:
+            cout << " School -> Школа" << endl << endl;
+            break;
+
+        case 13:
+            cout << "Black -> Черный" << endl << endl;
+            break;
+
+        case 14:
+            cout << "Dog -> Собака" << endl << endl;
+            break;
+
+        case 15:
+            cout << "Magazine -> Журнал" << endl << endl;
+            break;
+
+        default:
+            cout << "Выберите номер из списка" << endl << endl;
+            break;
+
+
+
+        }
+
+        break;
+
+    case 3:
+        cout << "Учите английский, чтобы не пользоваться переводчиком :)";    return 0;
+        break;
+
+
+    default:
+        cout << "Выберите номер из списка" << endl;
+        break;
+
+    }
+    return 0;
+
+
+}
