@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int sumOfDigits(int n) {
+    int sum = 0;
+    while (n > 9) {  // пока полученное число не станет однозначным
+        sum = 0;
+        while (n != 0) {  // считаем сумму цифр числа
+            sum += n % 10;
+            n /= 10;
+        }
+        n = sum; // присваиваем полученную сумму цифр числу t
+    }
+    return sum;
+}
+
+int main() {
+    setlocale(0, "");
+    int n;
+   cout << "Введите число: ";
+    cin >> n;
+
+    int result = sumOfDigits(n);
+
+ cout << "Сумма всех цифр числа: " << result << endl;
+
+    return 0;
+}
